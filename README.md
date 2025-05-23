@@ -1,8 +1,8 @@
 <div align="center">
    
-# DeChange
+# PresChange
 
-**DeChange** is a pioneering decentralized platform aimed at educating and empowering individuals and organizations in blockchain and decentralized technologies. By bridging the gap between learning and application in Web3, DeChange offers a comprehensive learning experience through interactive courses and practical quests.
+**PresChange** is a pioneering decentralized platform aimed at educating and empowering individuals and organizations in blockchain and decentralized technologies. By bridging the gap between learning and application in Web3, PresChange offers a comprehensive learning experience through interactive courses and practical quests focused on the Sui ecosystem.
 </div>
 
 <img width="1672" alt="Screenshot 2024-10-20 at 5 29 43 AM" src="https://github.com/user-attachments/assets/4e8d2c66-f7d2-4c10-b30d-c25b774189a0">
@@ -23,22 +23,22 @@
 
 ## Introduction
 
-DeChange is a decentralized educational platform that leverages blockchain technology to provide users with a unique learning experience. The platform allows users to engage with various courses, complete quests, and earn rewards, all while ensuring transparency and security through smart contracts.
+PresChange is a decentralized educational platform that leverages Sui blockchain technology to provide users with a unique learning experience. The platform allows users to engage with various courses, complete quests, and earn rewards, all while ensuring transparency and security through Sui's Move-based smart contracts.
 
-### Why DeChange?
+### Why PresChange?
 
-- **Addressing Complexity**: Web3 can be overwhelming for newcomers. DeChange simplifies the learning process.
-- **Hands-On Experience**: Existing platforms often focus heavily on theory. DeChange emphasizes practical, hands-on learning.
-- **Reliable Credentials**: Traditional certifications can be unreliable. DeChange offers verifiable on-chain certifications that are immutable and tamper-proof.
+- **Addressing Complexity**: The Sui ecosystem can be overwhelming for newcomers. PresChange simplifies the learning process.
+- **Hands-On Experience**: Existing platforms often focus heavily on theory. PresChange emphasizes practical, hands-on learning with Sui's powerful features.
+- **Reliable Credentials**: Traditional certifications can be unreliable. PresChange offers verifiable on-chain certifications as Sui Objects that are immutable and tamper-proof.
 <br/>
 <img width="1672" alt="Screenshot 2024-10-20 at 5 29 51 AM" src="https://github.com/user-attachments/assets/aed273cf-6d12-4914-8e35-9b65937e417b">
 
 
-### How DeChange Works
+### How PresChange Works
 
-1. **Beginner-Friendly Courses**: Interactive modules on blockchain and decentralized technologies.
-2. **Hands-On Learning**: Engage with live protocols (DeFi, NFTs, DAOs, etc.).
-3. **Earn Certifications**: Receive verifiable on-chain certifications (Soulbound Tokens) upon course completion.
+1. **Beginner-Friendly Courses**: Interactive modules on Sui blockchain and its unique capabilities.
+2. **Hands-On Learning**: Engage with live Sui protocols (DeFi, NFTs, Move programming, etc.).
+3. **Earn Certifications**: Receive verifiable on-chain certifications (Sui Objects) upon course completion.
 <br/>
 <img width="1672" alt="Screenshot 2024-10-20 at 5 29 58 AM" src="https://github.com/user-attachments/assets/783e4a5e-4b53-445a-8e25-9a42bfa1908b">
 
@@ -67,17 +67,17 @@ DeChange is a decentralized educational platform that leverages blockchain techn
 ## Tech Stack
 
 - **Frontend**: React, Next.js
-- **Blockchain**: Base
-- **Wallet Integration**: MetaMask, WalletConnect
+- **Blockchain**: Sui
+- **Wallet Integration**: Sui Wallet, Ethos Wallet, Suiet
 - **State Management**: React Context, Zustand
 - **UI Framework**: Tailwind CSS
-- **Smart Contract**: Solidity-based contracts
+- **Smart Contract**: Move-based modules
 
 ## Smart Contract Details
 
-The smart contract defines several functions that facilitate user registration, quest management, and reward distribution.
-DeChange Contract address: 0xbA43C9d6D80b92AB28eac94D24B923C18eE48dB8
-SoulBoundToken deployed to: 0xD0957D9219EB60Af476D86b240650BB6785b1599
+The Move modules define several functions that facilitate user registration, quest management, and reward distribution.
+PresChange Module ID: 0x5c21e36d0fa6c8d9f8a5e6b092d58d9a12e867bb7a2a1c7fb1ed4a612c3d9908
+Certification Object ID: 0x8f7b8c8d0e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6
 
 ### Read Functions
 
@@ -104,8 +104,8 @@ To run the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/dechange.git
-   cd dechange
+   git clone https://github.com/yourusername/preschange.git
+   cd preschange
    ```
 
 2. Install dependencies:
@@ -117,9 +117,10 @@ To run the project locally:
 3. Create an `.env` file and add the following environment variables:
 
    ```plaintext
-   NEXT_PUBLIC_RPC_URL=your_rpc_url_here
-   NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address_here
-   NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id_here
+   NEXT_PUBLIC_SUI_RPC_URL=your_sui_rpc_url_here
+   NEXT_PUBLIC_MODULE_ID=your_module_id_here
+   NEXT_PUBLIC_CLIENT_ID=your_client_id_here
+   NEXT_PUBLIC_THIRDWEB_API_KEY=your_api_key_here
    ```
 
 4. Run the development server:
@@ -130,18 +131,18 @@ To run the project locally:
 
 ## Usage
 
-1. **Connect Wallet**: Connect a Web3 wallet (MetaMask, TrustWallet, etc.).
-2. **Browse Courses**: Explore available courses and their details.
-3. **Participate in Quests**: Engage in quests to apply your knowledge and earn rewards.
-4. **Track Progress**: Monitor your learning progress and rewards earned.
-5. **Claim Rewards**: Claim rewards for completed quests directly through your wallet.
+1. **Connect Wallet**: Connect a Sui wallet (Sui Wallet, Ethos, Suiet, etc.).
+2. **Browse Courses**: Explore available Sui-focused courses and their details.
+3. **Participate in Quests**: Engage in quests to apply your knowledge of Sui and earn rewards.
+4. **Track Progress**: Monitor your learning progress and rewards earned on the Sui blockchain.
+5. **Claim Rewards**: Claim rewards for completed quests directly through your Sui wallet.
 <br/>
 <img width="1672" alt="Screenshot 2024-10-20 at 5 37 37 AM" src="https://github.com/user-attachments/assets/0b1daeb3-1f49-4208-8358-bfab65315d96">
 
 
 ## Contribution Guidelines
 
-We welcome contributions to DeChange! To contribute:
+We welcome contributions to PresChange! To contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -157,5 +158,5 @@ This project is licensed under the MIT License.
 
 <div align="center">
 <br/>
-DeChange is not just a platform; it's a movement towards a more educated and empowered Web3 community. Join us in bridging the gap between learning and application in the decentralized world!
+PresChange is not just a platform; it's a movement towards a more educated and empowered Sui ecosystem. Join us in bridging the gap between learning and application in the Sui-powered decentralized world!
 </div>
