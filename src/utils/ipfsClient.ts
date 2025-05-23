@@ -1,5 +1,17 @@
-import { create } from 'ipfs-http-client'
+import { create } from "ipfs-http-client";
 
-const ipfs = create({ url: 'https://ipfs.infura.io:5001/api/v0' })
+// Using a more modern IPFS gateway that's compatible with Sui ecosystem projects
+const projectId = process.env.NEXT_PUBLIC_IPFS_PROJECT_ID || "";
+const projectSecret = process.env.NEXT_PUBLIC_IPFS_PROJECT_SECRET || "";
+const auth = "Basic " + Buffer.from(projectId + ":" + projectSecret).toString("base64");
 
-export default ipfs
+const ipfs = create({
+  host: "ipfs.infura.io",
+  port: 5001,
+  protocol: "https",
+  headers: {
+    authorization: auth,
+  },
+});
+
+export default ipfs;
